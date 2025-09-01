@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://todo-x4qe.onrender.com", // Wrap in quotes
+    origin: "https://todo-11-w08p.onrender.com", // Wrap in quotes
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"], // Use array instead of string
     allowedHeaders: ["Content-Type", "Authorization"],
